@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    &lt;!&ndash; res/values/arrays.xml &ndash;&gt;-->
+
+<!--        <array name="exercise_types">-->
+<!--            <item></item>-->
+<!--            <item>cardio</item>-->
+<!--            <item>olympic_weightlifting</item>-->
+<!--            <item>plyometrics</item>-->
+<!--            <item>powerlifting</item>-->
+<!--            <item>strength</item>-->
+<!--            <item>stretching</item>-->
+<!--            <item>strongman</item>-->
+<!--        </array>-->
+
+<!--    &lt;!&ndash; Muscle Groups &ndash;&gt;-->
+<!--    <array name="muscle_groups">-->
+<!--        <item></item>-->
+<!--        <item>abdominals</item>-->
+<!--        <item>abductors</item>-->
+<!--        <item>adductors</item>-->
+<!--        <item>biceps</item>-->
+<!--        <item>calves</item>-->
+<!--        <item>chest</item>-->
+<!--        <item>forearms</item>-->
+<!--        <item>glutes</item>-->
+<!--        <item>hamstrings</item>-->
+<!--        <item>lats</item>-->
+<!--        <item>lower_back</item>-->
+<!--        <item>middle_back</item>-->
+<!--        <item>neck</item>-->
+<!--        <item>quadriceps</item>-->
+<!--        <item>traps</item>-->
+<!--        <item>triceps</item>-->
+<!--    </array>-->
+
+<!--    &lt;!&ndash; Difficulty Levels &ndash;&gt;-->
+<!--    <array name="difficulty_levels">-->
+<!--        <item></item>-->
+<!--        <item>beginner</item>-->
+<!--        <item>intermediate</item>-->
+<!--        <item>expert</item>-->
+<!--    </array>-->
+
+</resources>

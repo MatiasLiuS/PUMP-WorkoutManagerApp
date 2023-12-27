@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475164920823",
+    "project_id": "pump-c9671",
+    "storage_bucket": "pump-c9671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475164920823:android:44413989efeec242f07cf2",
+        "android_client_info": {
+          "package_name": "com.example.pump"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlh9VC7tC3xmUn4hIHkTO8UmwgBYsV1iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

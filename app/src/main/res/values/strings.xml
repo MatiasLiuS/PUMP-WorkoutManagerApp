@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">pump</string>
+    <string name="back">Back</string>
+    <string name="no_data_found_please_adjust_your_filters">No data found. Please adjust your filters.</string>
+    <string name="workouts">Workouts</string>
+    <string name="next">Next</string>
+    <string name="page_x_of_y">Page X of Y</string>
+    <string name="prev">Prev</string>
+    <string name="search">Search</string>
+    <string name="back1">Back</string>
+    <string name="search_for_workouts">Search for workouts</string>
+    <string name="search1">Search...</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="muscle">Muscle</string>
+    <string name="search2">Search</string>
+    <string name="type">Type</string>
+    <string name="back2">Back</string>
+    <string name="no_data_found_please_adjust_your_filters1">No data found. Please adjust your filters.</string>
+    <string name="workouts1">Workouts</string>
+    <string name="next1">Next</string>
+    <string name="page_x_of_y1">Page X of Y</string>
+    <string name="prev1">Prev</string>
+    <string name="search3">Search</string>
+    <string name="back3">Back</string>
+    <string name="search_for_workouts3">Search for workouts</string>
+    <string name="category3">Category</string>
+    <string name="equipment3">Equipment</string>
+    <string name="muscle3">Muscle</string>
+    <string name="add_exercise4">add Exercise</string>
+    <string name="exercise4">Exercise</string>
+    <string name="back4">Back</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="new_here_register">New Here? Register</string>
+    <string name="password">Password:</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="button">Button</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="remember_credentials">Remember Credentials</string>
+    <string name="workout_title">Workout Title</string>
+    <string name="add_btn_1">+</string>
+    <string name="Difficulty2">Difficulty:</string>
+    <string name="instructions_name">Instructions Name</string>
+    <string name="instructions">Instructions:</string>
+    <string name="muscle1">Muscle:</string>
+    <string name="equipment1">Equipment:</string>
+    <string name="type1">Type:</string>
+    <string name="workout_name1">Workout Name</string>
+    <string name="description">Description:</string>
+    <string name="category">Category:</string>
+    <string name="category5">Category:</string>
+    <string name="instructions_name5">Instructions Name</string>
+    <string name="category6">Category:</string>
+    <string name="workout_name7">Workout Name</string>
+    <string name="select_birthday">Select Birthday</string>
+    <string name="birthday">Birthday:</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="e_mail1">E-mail:</string>
+    <string name="enter_your_password2">Enter your password</string>
+    <string name="create_account1">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_username1">Enter your username</string>
+    <string name="username">Username:</string>
+    <string name="button7">Button</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="post_workout">Post Workout</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="exercise">Exercise</string>
+    <string name="equipment">Equipment</string>
+    <string name="type3">Type</string>
+    <string name="sets3">Sets</string>
+    <string name="muscle4">Muscle</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="reps">Reps:</string>
+    <string name="weight">Weight:</string>
+    <string name="weight2">Weight:</string>
+    <string name="_175">175</string>
+    <string name="post_btn_1">+</string>
+    <string name="profile">Profile</string>
+    <string name="weight_175">175</string>
+    <string name="squart_175">175</string>
+    <string name="deadlift_175">175</string>
+    <string name="bench_175">175</string>
+    <string name="username9">\@ username</string>
+    <string name="uid">uid</string>
+    <string name="workouts4">Workouts</string>
+    <string name="_00_00_0000">00/00/0000</string>
+    <string name="title">Title</string>
+    <string name="username0">\@ username</string>
+    <string name="workouts2">Workouts</string>
+
+    <!-- Gender Options -->
+    <string-array name="gender_options">
+        <item>Choose Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-Binary</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Sex Options -->
+    <string-array name="sex_options">
+        <item>Choose Sex</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trans-Male</item>
+        <item>Trans-Female</item>
+    </string-array>
+
+    <!-- Sport Options -->
+    <string-array name="sport_options">
+        <item>Choose Sport</item>
+        <item>Powerlifting</item>
+        <item>Triathlon</item>
+        <item>Running</item>
+        <item>Biking</item>
+        <item>Swimming</item>
+        <item>N/A</item>
+    </string-array>
+
+    <!-- Steroid Options -->
+    <string-array name="steroid_options">
+        <item>Are you on steroids?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- Exercise Types -->
+    <string-array name="exercise_types">
+        <item></item>
+        <item>cardio</item>
+        <item>olympic_weightlifting</item>
+        <item>plyometrics</item>
+        <item>powerlifting</item>
+        <item>strength</item>
+        <item>stretching</item>
+        <item>strongman</item>
+    </string-array>
+
+    <!-- Muscle Groups -->
+    <string-array name="muscle_groups">
+        <item></item>
+        <item>abdominals</item>
+        <item>abductors</item>
+        <item>adductors</item>
+        <item>biceps</item>
+        <item>calves</item>
+        <item>chest</item>
+        <item>forearms</item>
+        <item>glutes</item>
+        <item>hamstrings</item>
+        <item>lats</item>
+        <item>lower_back</item>
+        <item>middle_back</item>
+        <item>neck</item>
+        <item>quadriceps</item>
+        <item>traps</item>
+        <item>triceps</item>
+    </string-array>
+
+    <!-- Difficulty Levels -->
+    <string-array name="difficulty_levels">
+        <item></item>
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+    </string-array>
+</resources>

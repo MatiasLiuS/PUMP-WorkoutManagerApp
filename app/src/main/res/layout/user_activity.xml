@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <!-- Profile Image CardView -->
+
+    <LinearLayout
+        android:id="@+id/profileSection"
+        android:layout_width="395dp"
+        android:layout_height="789dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="86dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="129dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="100dp"
+            android:textAlignment="center"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_test_image" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:isScrollContainer="true"
+            android:text="@string/username9"
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/uid_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:isScrollContainer="true"
+            android:text="@string/uid"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:clickable="false"
+            android:textAlignment="center">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_bday"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:autoText="true"
+                android:text="@string/_175"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                app:chipIcon="@drawable/emoji_cake"
+                app:chipIconSize="12dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_weight"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:autoText="true"
+                android:text="@string/weight_175"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                app:chipIcon="@drawable/emoji_scale"
+                app:chipIconSize="12dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_bench"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:autoText="true"
+                android:text="@string/bench_175"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                app:chipIcon="@drawable/emoji_bench"
+                app:chipIconSize="12dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_squat"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:autoText="true"
+                android:text="@string/squart_175"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                app:chipIcon="@drawable/emoji_squat"
+                app:chipIconSize="12dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_deadlift"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:autoText="true"
+                android:text="@string/deadlift_175"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                app:chipIcon="@drawable/emoji_deadlift"
+                app:chipIconSize="12dp" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/workout_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsSection"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/post_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/post_btn_1" />
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:padding="16dp"
+            android:text="@string/profile"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/workouts_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:padding="16dp"
+            android:text="@string/workouts4"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/logo_no_word" />
+
+    <!-- RecyclerView with Chips (Horizontal) -->
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="52dp"
+        android:background="#00000000"
+        android:gravity="center"
+        app:icon="@drawable/settings"
+        app:iconPadding="15dp"
+        app:iconSize="30dp" />
+
+    <!-- Add other UI elements as needed -->
+
+</RelativeLayout>

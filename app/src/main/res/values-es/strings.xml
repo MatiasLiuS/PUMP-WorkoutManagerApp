@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Pump</string>
+    <string name="back">Atrás</string>
+    <string name="no_data_found_please_adjust_your_filters">No se encontraron datos. Ajusta tus filtros.</string>
+    <string name="workouts">Entrenamientos</string>
+    <string name="next">Siguiente</string>
+    <string name="page_x_of_y">Página X de Y</string>
+    <string name="prev">Anterior</string>
+    <string name="search">Buscar</string>
+    <string name="back1">Atrás</string>
+    <string name="search_for_workouts">Buscar entrenamientos</string>
+    <string name="search1">Buscar...</string>
+    <string name="difficulty">Dificultad</string>
+    <string name="muscle">Músculo</string>
+    <string name="search2">Buscar</string>
+    <string name="type">Tipo</string>
+    <string name="back2">Atrás</string>
+    <string name="no_data_found_please_adjust_your_filters1">No se encontraron datos. Ajusta tus filtros.</string>
+    <string name="workouts1">Entrenamientos</string>
+    <string name="next1">Siguiente</string>
+    <string name="page_x_of_y1">Página X de Y</string>
+    <string name="prev1">Anterior</string>
+    <string name="search3">Buscar</string>
+    <string name="back3">Atrás</string>
+    <string name="search_for_workouts3">Buscar entrenamientos</string>
+    <string name="category3">Categoría</string>
+    <string name="equipment3">Equipo</string>
+    <string name="muscle3">Músculo</string>
+    <string name="add_exercise4">Agregar Ejercicio</string>
+    <string name="exercise4">Ejercicio</string>
+    <string name="back4">Atrás</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="enter_your_password">Ingresa tu contraseña</string>
+    <string name="new_here_register">¿Nuevo aquí? Registrarse</string>
+    <string name="password">Contraseña:</string>
+    <string name="enter_your_username">Ingresa tu nombre de usuario</string>
+    <string name="button">Botón</string>
+    <string name="e_mail">Correo electrónico:</string>
+    <string name="remember_credentials">Recordar credenciales</string>
+    <string name="workout_title">Título del entrenamiento</string>
+    <string name="add_btn_1">+</string>
+    <string name="Difficulty2">Dificultad:</string>
+    <string name="instructions_name">Nombre de instrucciones</string>
+    <string name="instructions">Instrucciones:</string>
+    <string name="muscle1">Músculo:</string>
+    <string name="equipment1">Equipo:</string>
+    <string name="type1">Tipo:</string>
+    <string name="workout_name1">Nombre del entrenamiento</string>
+    <string name="description">Descripción:</string>
+    <string name="category">Categoría:</string>
+    <string name="category5">Categoría:</string>
+    <string name="instructions_name5">Nombre de instrucciones</string>
+    <string name="category6">Categoría:</string>
+    <string name="workout_name7">Nombre del entrenamiento</string>
+    <string name="select_birthday">Selecciona tu cumpleaños</string>
+    <string name="birthday">Cumpleaños:</string>
+    <string name="confirm_your_password">Confirma tu contraseña</string>
+    <string name="confirm_password">Confirmar contraseña:</string>
+    <string name="enter_your_email">Ingresa tu correo electrónico</string>
+    <string name="e_mail1">Correo electrónico:</string>
+    <string name="enter_your_password2">Ingresa tu contraseña</string>
+    <string name="create_account1">Crear cuenta</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="enter_your_username1">Ingresa tu nombre de usuario</string>
+    <string name="username">Nombre de usuario:</string>
+    <string name="button7">Botón</string>
+    <string name="add_exercise">Agregar ejercicio</string>
+    <string name="post_workout">Publicar entrenamiento</string>
+    <string name="enter_title">Ingresa el título</string>
+    <string name="upload_image">Subir imagen</string>
+    <string name="exercise">Ejercicio</string>
+    <string name="equipment">Equipo</string>
+    <string name="type3">Tipo</string>
+    <string name="sets3">Sets</string>
+    <string name="muscle4">Músculo</string>
+    <string name="exercise_name">Nombre del ejercicio</string>
+    <string name="reps">Repeticiones:</string>
+    <string name="weight">Peso:</string>
+    <string name="weight2">Peso:</string>
+    <string name="_175">175</string>
+    <string name="post_btn_1">+</string>
+    <string name="profile">Perfil</string>
+    <string name="weight_175">175</string>
+    <string name="squart_175">175</string>
+    <string name="deadlift_175">175</string>
+    <string name="bench_175">175</string>
+    <string name="username9">\@ nombre_de_usuario</string>
+    <string name="uid">uid</string>
+    <string name="workouts4">Entrenamientos</string>
+    <string name="_00_00_0000">00/00/0000</string>
+    <string name="title">Título</string>
+    <string name="username0">\@ nombre_de_usuario</string>
+    <string name="workouts2">Entrenamientos</string>
+
+    <!-- Gender Options -->
+    <string-array name="gender_options">
+        <item>Selecciona Género</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>No binario</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Sex Options -->
+    <string-array name="sex_options">
+        <item>Selecciona Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Trans-Masculino</item>
+        <item>Trans-Femenino</item>
+    </string-array>
+
+    <!-- Sport Options -->
+    <string-array name="sport_options">
+        <item>Selecciona Deporte</item>
+        <item>Levantamiento de pesas</item>
+        <item>Triatlón</item>
+        <item>Carrera</item>
+        <item>Ciclismo</item>
+        <item>Natación</item>
+        <item>N/D</item>
+    </string-array>
+
+    <!-- Steroid Options -->
+    <string-array name="steroid_options">
+        <item>¿Estás usando esteroides?</item>
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- Exercise Types -->
+    <string-array name="exercise_types">
+        <item></item>
+        <item>Cardio</item>
+        <item>Levantamiento olímpico</item>
+        <item>Plyometrics</item>
+        <item>Levantamiento de pesas</item>
+        <item>Fuerza</item>
+        <item>Estiramiento</item>
+        <item>Strongman</item>
+    </string-array>
+
+    <!-- Muscle Groups -->
+    <string-array name="muscle_groups">
+        <item></item>
+        <item>Abdominales</item>
+        <item>Abductores</item>
+        <item>Aductores</item>
+        <item>Bíceps</item>
+        <item>Gemelos</item>
+        <item>Pecho</item>
+        <item>Antebrazos</item>
+        <item>Glúteos</item>
+        <item>Isquiotibiales</item>
+        <item>Lats</item>
+        <item>Espalda baja</item>
+        <item>Espalda media</item>
+        <item>Cuello</item>
+        <item>Quadriceps</item>
+        <item>Traps</item>
+        <item>Tríceps</item>
+    </string-array>
+
+    <!-- Difficulty Levels -->
+    <string-array name="difficulty_levels">
+        <item></item>
+        <item>Principiante</item>
+        <item>Intermedio</item>
+        <item>Experto</item>
+    </string-array>
+</resources>
